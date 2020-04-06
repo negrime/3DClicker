@@ -20,6 +20,9 @@ public class CommonSoldier : MonoBehaviour, IEnemy
     private Player _player;
     private Animator _animator;
 
+    [SerializeField]
+    private const string _shootingTrigger ="Shoot";
+
 
     private void OnEnable()
     {

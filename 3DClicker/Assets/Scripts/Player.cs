@@ -22,6 +22,9 @@ public class Player : MonoBehaviour
     public static Action<int> UpdateHealth;
     public static Action PlayerDie;
 
+ 
+    private const string _shootingTrigger = "Shoot";
+
     [SerializeField]
     private GameObject[] DisableOjects;
     
@@ -57,7 +60,7 @@ public class Player : MonoBehaviour
         _currentTime += Time.deltaTime;
         if (Input.GetMouseButtonDown(0) && _currentTime >= _timeToShoot)
         {
-            _weaponAnimator.SetTrigger("Shoot");
+            _weaponAnimator.SetTrigger(_shootingTrigger);
             _currentTime = 0;
             _shoot.Fire();
         }

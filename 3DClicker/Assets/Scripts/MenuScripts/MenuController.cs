@@ -15,6 +15,9 @@ public class MenuController : MonoBehaviour
     private TextMeshProUGUI _bestScoreText;
 
 
+    private const string _ToAuthorTrigger = "Author";
+    private const string _FromAuthorTrigger = "FromAuthor";
+
     private void Start()
     {
         if (PlayerPrefs.GetInt("BestScores") != 0)
@@ -32,11 +35,11 @@ public class MenuController : MonoBehaviour
 
     public void AboutAuthorClick()
     {
-        _animator.SetTrigger("Author");
+        _animator.SetTrigger(_ToAuthorTrigger);
     }
     public void NoProblemClick()
     {
-        _animator.SetTrigger("FromAuthor");
+        _animator.SetTrigger(_FromAuthorTrigger);
     }
 
     public void Exit()
