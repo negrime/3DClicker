@@ -15,16 +15,6 @@ public class Move : MonoBehaviour
         _controller = GetComponent<CharacterController>();
     }
 
-    private void Update()
-    {
-        //   Movement();
-    }
-
-    void FixedUpdate()
-    {
-        
-    }
-
     private void Movement()
     {
         float x = Input.GetAxis("Horizontal");

@@ -84,7 +84,7 @@ public class CommonSoldier : MonoBehaviour, IEnemy
         while (true)
         {
             yield return new WaitForSeconds(_stats.GetTimeToShoot());
-            _animator.SetTrigger("Shoot");
+            _animator.SetTrigger(_shootingTrigger);
             _fire.Play();
             _player.ApplyDamage(_stats.GetDamage());
         }

@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f9ec028-ec86-4d66-96b0-63caeb0c717d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3DClicker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3DClicker/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.3DClicker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3DClicker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/CameraMenu/Main Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/CameraMenu/Main Camera.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.3DClicker/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3DClicker/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CommonSoldier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CommonSoldier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuScripts/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuScripts/MenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ToonSoldiers_demo/animation/ToonSoldier_demo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ToonSoldiers_demo/animation/ToonSoldier_demo.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Move.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/IEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Fps.cs" />
@@ -55,8 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RotateToTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UiStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CommonSoldier.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuScripts/MenuController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CommonSoldier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +113,7 @@
       <workItem from="1585136442380" duration="5907000" />
       <workItem from="1585395991005" duration="16204000" />
       <workItem from="1586160354417" duration="983000" />
+      <workItem from="1587234689522" duration="184000" />
     </task>
     <servers />
   </component>
